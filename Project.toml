@@ -1,0 +1,17 @@
+name = "DifferentialGames"
+uuid = "f23dbe01-dab6-4ef8-a17a-6a7abd1aa9dd"
+authors = ["Ahmed Mogahed <a.mogahed@inginne.com> and contributors"]
+version = "1.0.0-DEV"
+
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+JuMP = "4076af6c-e467-56ae-b986-b466b2749572"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
